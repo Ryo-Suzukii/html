@@ -4,7 +4,7 @@ html {
 }
 
 .bg{
-    background-color : #ffffff;
+    background-color : #c7c7c7;
 	background-image:
 		repeating-linear-gradient( 0deg,rgba(175, 95, 0, 0.5) 0px 15px,	transparent 15px 40px),
 		repeating-linear-gradient( 90deg,rgba(255, 255, 0, 0.5) 0px 15px,	transparent 15px 40px);
