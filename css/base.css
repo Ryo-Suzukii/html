@@ -8,7 +8,8 @@ body{
     margin: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/bg.jpeg);
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/H/Hayaa6211/20211026/20211026163144.jpg);
+    font-size: 150%;
 }
 
 .full-page{
@@ -36,6 +37,7 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;/*rem算出をしやすくするために*/
 }
+
 
 .btn-flat-bottom-border {
     position: relative;
