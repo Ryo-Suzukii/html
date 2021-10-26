@@ -14,10 +14,44 @@ body{
 .full-page{
     width: 100vw;
     height: 100vh;
-
-    
 }
 
-.fontclass{
+.inner{
+    text-align: center;
+}
+
+.fontsize_200{
     font-size:200%;
 }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+
+.btn-flat-bottom-border {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 7px 10px 10px 10px;
+    text-decoration: none;
+    color: #FFF;
+    background: #d6562f;
+    transition: .4s;
+  }
+  
+  .btn-flat-bottom-border > span {
+    border-bottom: solid 2px #FFF;
+  }
+  
+  .btn-flat-bottom-border:hover {
+    background: #ffab0f;
+  }
