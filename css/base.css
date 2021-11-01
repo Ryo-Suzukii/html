@@ -1,14 +1,14 @@
 @charset "utf-8";
 html {
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Zen Maru Gothic', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
 }
 
 body{
     margin: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/H/Hayaa6211/20211026/20211026163144.jpg);
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/H/Hayaa6211/20211101/20211101115417.png);
     font-size: 150%;
 }
 
@@ -21,39 +21,10 @@ body{
     text-align: center;
 }
 
-.fontsize_200{
-    font-size:200%;
+.fontsize_75{
+    font-size:75%;
 }
 
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+.fontsize_100{
+  font-size:100%;
 }
-
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-size: 62.5%;/*rem算出をしやすくするために*/
-}
-
-
-.btn-flat-bottom-border {
-    position: relative;
-    display: inline-block;
-    font-weight: bold;
-    padding: 7px 10px 10px 10px;
-    text-decoration: none;
-    color: #FFF;
-    background: #d6562f;
-    transition: .4s;
-  }
-  
-  .btn-flat-bottom-border > span {
-    border-bottom: solid 2px #FFF;
-  }
-  
-  .btn-flat-bottom-border:hover {
-    background: #ffab0f;
-  }
